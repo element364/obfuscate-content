@@ -1,6 +1,6 @@
 {
   "name": "obfuscate-content",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "obfuscateContent is a helper function to replace all alphabetical characters in a string with analogs",
   "main": "index.js",
   "scripts": {

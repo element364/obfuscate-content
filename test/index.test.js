@@ -9,6 +9,6 @@ test('obfuscateContent', () => {
 
   const words = output.split(' ');
   expect(words.length).toBe(2);
-  expect(words[0].charAt(0).toUpperCase()).toBe(words[0].charAt(0));
-  expect(words[1].charAt(0).toUpperCase()).toBe(words[1].charAt(0));
+  expect(words[0].charAt(0)).toBe(words[0].charAt(0).toUpperCase());
+  expect(words[1].charAt(0)).toBe(words[1].charAt(0).toUpperCase());
 });
