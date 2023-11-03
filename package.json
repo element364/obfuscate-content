@@ -3,14 +3,11 @@
   "version": "1.2.3",
   "type": "module",
   "description": "obfuscateContent is a helper function to replace all alphabetical characters in a string with analogs",
-  "exports": {
-    "require": "./dist/index.cjs",
-    "default": "./dist/index.modern.mjs"
-  },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "unpkg": "./dist/index.umd.js",
-  "types": "./src/index.d.ts",
+  "source": "src/index.js",
+  "types": "src/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle --no-generateTypes",
     "dev": "microbundle --no-generateTypes watch",
