@@ -31,6 +31,9 @@
     "url": "https://github.com/element364/obfuscate-content/issues"
   },
   "homepage": "https://github.com/element364/obfuscate-content#readme",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "microbundle": "^0.15.1",
     "vitest": "^0.33.0"
